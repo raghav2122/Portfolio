@@ -7,7 +7,7 @@ import { Analytics } from "./components/analytics";
 export const metadata: Metadata = {
   title: {
     default: "JaveRynx",
-    template: "%s | chronark.com",
+    template: "%s | javerynx.com",
   },
   description: "Engineer, Developer, and Creator",
   openGraph: {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: "javerynx.com",
     images: [
       {
-        url: "https://chronark.com/og.png",
+        url: "next-app/public/og.png",
         width: 1920,
         height: 1080,
       },
