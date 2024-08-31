@@ -5,6 +5,7 @@ import Particles from "./components/particles";
 const navigation = [
   { name: "Projects", href: "/projects" },
   { name: "Contact", href: "/contact" },
+  { name: "Experience", href: "/experience" },
 ];
 
 export default function Home() {
@@ -36,24 +37,9 @@ export default function Home() {
         <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
         <div className="my-16 text-left animate-fade-in">
           <h2 className="text-sm text-zinc-500 ">
-            I'm building{" "}
-            <Link
-              target="_blank"
-              href="https://unkey.dev"
-              className="underline duration-500 hover:text-zinc-300"
-            >
-              unkey.dev
-            </Link>{" "}
-            to solve API authentication and authorization for developers.
+          Developer || ex-SWE intern @uber || pre-final @bitspilaniindia
           </h2>
         </div>
-      </div>
-      <div className="w-[40%] flex items-center justify-center relative">
-        <img
-          src="/planetfall.png" // Update the path as necessary
-          alt="Raghav"
-          className="object-cover w-full h-auto"
-        />
       </div>
     </div>
   );
