@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   },
   description: "Engineer, Developer, and Creator",
   openGraph: {
-    title: "chronark.com",
+    title: "Jave_Rynx.com",
     description:
       "Engineer, Developer, and Creator",
     url: "https://javerynx.com",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Chronark",
+    title: "Jave_Rynx",
     card: "summary_large_image",
   },
   icons: {
