@@ -1,11 +1,11 @@
 import express from "express";
 import cors from "cors";
 
-const app = express()
-app.use(cors())
+const app = express();
+app.use(cors());
 
-app.get("/ap1/v1/users", (req, res,next) => {
-    const users =[
+app.get("/ap1/v1/users", (req, res) => {
+    const users = [
         {
             id: 1,
             name: "John Doe"
@@ -18,7 +18,6 @@ app.get("/ap1/v1/users", (req, res,next) => {
     return res.status(200).json(users);
 });
 
-app.listen(5000,(req, res) => {
+app.listen(5000, () => {
     console.log("Server is running on port 5000");
 });
-

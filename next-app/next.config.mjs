@@ -6,14 +6,14 @@ const nextConfig = {
     return [
       {
         source: "/ap1/v1/:path*",
-        destination: "http://localhost:5000/api/v1/:path*", 
+        destination: "http://localhost:5000/ap1/v1/:path*",
       },
     ];
-  }, // Added missing comma
+  },
   pageExtensions: ["js", "jsx", "ts", "tsx", "md", "mdx"],
   experimental: {
     mdxRs: true,
   },
 };
 
-module.exports = withContentlayer(nextConfig);
+export default withContentlayer(nextConfig);
