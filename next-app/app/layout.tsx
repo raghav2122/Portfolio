@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     siteName: "javerynx.com",
     images: [
       {
-        url: "https://github.com/raghav2122/Portfolio/blob/master/next-app/public/og.png",
+        url: "https://avatars.githubusercontent.com/u/98418229?s=400&u=948f53baa872b3d8cb73d4b7d19c5bfb5a81fa1f&v=4",
         width: 1920,
         height: 1080,
       },
