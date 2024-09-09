@@ -13,20 +13,25 @@ export const metadata: Metadata = {
   },
   description: "Engineer, Developer, and Creator",
   openGraph: {
-    title: "Jave_Rynx.com",
-    description:
-      "Engineer, Developer, and Creator",
-    url: "https://javerynx.com",
-    siteName: "javerynx.com",
+    title: 'JaveRynx',
+    description: 'Portfolio of JaveRynx',
+    url: 'https://javerynx.vercel.app/',
+    siteName: 'JaveRynx.com',
     images: [
       {
-        url: "https://avatars.githubusercontent.com/u/98418229?s=400&u=948f53baa872b3d8cb73d4b7d19c5bfb5a81fa1f&v=4",
-        width: 1920,
-        height: 1080,
+        url: 'https://ibb.co/F6BqKsP', // Must be an absolute URL
+        width: 800,
+        height: 600,
+      },
+      {
+        url: 'https://ibb.co/J2bzPVR', // Must be an absolute URL
+        width: 1800,
+        height: 1600,
+        alt: 'My custom alt',
       },
     ],
-    locale: "en-US",
-    type: "website",
+    locale: 'en_US',
+    type: 'website',
   },
   robots: {
     index: true,
